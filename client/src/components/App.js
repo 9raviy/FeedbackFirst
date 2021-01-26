@@ -5,21 +5,12 @@ import {connect} from 'react-redux'
 import * as actions from '../actions'
 import Header from './Header'
 import Landing from './Landing'
-
-
-
-const Dashboard=()=>{
-    return <h1>Dashboard</h1>
-}
-
-const Survey=()=>{
-    return <h1>Survey</h1>
-}
+import Dashboard from './Dashboard'
+import SurveyNew from './surveys/SurveyNew'
 
 class App extends Component {
     componentDidMount(){
         this.props.fetchUser();
-        console.log("inside componentDidMount")
     }
     render() {
     
@@ -29,7 +20,7 @@ class App extends Component {
                 <Header/>
                 <Route exact path='/' component={Landing}/>
                 <Route exact path='/surveys' component={Dashboard}/>
-                <Route exact path='/surveys/new' component={Survey}/>          
+                <Route exact path='/surveys/new' component={SurveyNew}/>          
             </div>    
         </BrowserRouter>
 
