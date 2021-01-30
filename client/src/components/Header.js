@@ -12,7 +12,7 @@ export class Header extends Component {
                 return <li><a href='/auth/google'>Login with Google</a></li>
             default:
                 return [
-                <li key='1'><Payments/></li>,
+                <li key='1'><a><Payments/></a></li>,
                 <li key='2' style={{margin:'0 10px'}}>Credits: {this.props.auth.credits}</li>,
                 <li key='3'><a href='/api/logout'>Logout</a></li>]
         }
@@ -20,14 +20,20 @@ export class Header extends Component {
 
     render() {
         return (
-            <nav>
-                <div className="nav-wrapper">
-                    <Link to={this.props.auth? '/surveys': "/"}  className="left brand-logo">Emaily</Link>
-                    <ul className="right">                        
-                            {this.renderContent()}                        
-                    </ul>
+            <div className="navbar">
+                <div className="container flex">
+                    <Link to={this.props.auth? '/surveys': "/"}  className="logo">FEEDBACKFIRST</Link>
+                    <nav>
+                        <ul>
+                            
+                            {this.renderContent()}
+                        </ul>
+                    </nav>
                 </div>
-            </nav>
+            </div>
+
+
+
         )
     }
 }
