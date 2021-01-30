@@ -1,6 +1,5 @@
 import React from 'react'
 import cloudImage from '../images/cloud.png'
-import cliImage from '../images/cli.png'
 import serverImage from '../images/server.png'
 
 export default function features() {
