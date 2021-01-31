@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import SurveyList from './surveys/SurveyList'
 import serverImage from '../images/server.png'
 
-
 function Dashboard() {
     return (
         <div>
@@ -12,7 +11,6 @@ function Dashboard() {
                     <div>
                         <h1 className="xl">Dashboard</h1>
                         <p className="lead">
-                            
                         </p>
                     </div>
                     <img src={serverImage} alt=""/>
@@ -33,7 +31,6 @@ function Dashboard() {
                     </div>
                 </div>
             </section>
-
             <SurveyList/>
             <div className="fixed-action-btn">
             </div>

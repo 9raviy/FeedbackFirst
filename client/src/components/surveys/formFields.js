@@ -1,6 +1,6 @@
 export default [
-    {label:'Survey Title', name:'title',},
-    {label:'Subject Line', name:'subject'},
-    {label:'Email body', name:'body'},
-    {label:'Recipient List', name:'recipients'}
+    {label:'Survey title', name:'title',},
+    {label:'Email subject line', name:'subject'},
+    {label:'Voting survey question for which a user can answer either in a Yes/No', name:'body'},
+    {label:'Recipient list emails separated by a comma(\,)', name:'recipients'}
 ]
