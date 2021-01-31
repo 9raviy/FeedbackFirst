@@ -179,7 +179,7 @@ pre {
 
 .contact form button {
   text-transform: uppercase;
-  display: flex;
+  justify-self: flex-end;
 }
 
 /* Form Review */
@@ -205,16 +205,12 @@ pre {
 }
 
 .buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-evenly;
-  grid-gap: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.review button {
+.buttons p {
   text-transform: uppercase;
-  width: 100%;
-  display: flex;
 }
 
 /* Dashboard Surveys */

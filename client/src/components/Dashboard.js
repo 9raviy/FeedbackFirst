@@ -22,7 +22,9 @@ function Dashboard() {
             <section class="features-sub-head bg-light py-3">
                 <div class="container grid">
                     <div>
-                        <p></p>
+                    <p className="lead">
+                            List of all surveys created and sent by you are shown below
+                        </p>
                     </div>
                     <div>                    
                         <Link to='/surveys/new' className="btn btn-dark center-text create">

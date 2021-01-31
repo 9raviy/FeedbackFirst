@@ -30,14 +30,13 @@ const SurveyFormReview=({onCancel, formValues, submitSurvey, history})=> {
                     <p>
                         <button className="btn btn-primary" onClick={onCancel}>
                             Back
-                        </button>  
+                        </button>
                     </p>
                     <p>
                         <button onClick={()=>submitSurvey(formValues,history)} className="btn btn-dark">
                             Send Survey
                         </button>
                     </p>
-
                 </div>
 
             </div>

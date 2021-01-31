@@ -1,6 +1,7 @@
 import React from 'react'
 import cloudImage from '../images/cloud.png'
 import serverImage from '../images/server.png'
+import serverImage2 from '../images/server2.png'
 
 export default function features() {
     return (
@@ -14,7 +15,7 @@ export default function features() {
                             competition
                     </p>
                 </div>
-                <img src={serverImage} alt=""/>
+                    <img src={serverImage} alt=""/>
             </div>
             </section>
 
@@ -26,7 +27,7 @@ export default function features() {
                             As easy as creating a Login Account, then creating a Survey and Send it!! Once your audience starts responding, you will see the results on your Dashboard. Look at the detailed features below.
                         </p>
                     </div>
-                    <img src="images/server2.png" alt=""/>
+                        <img src={serverImage2} alt=""/>
                 </div>
             </section>
 

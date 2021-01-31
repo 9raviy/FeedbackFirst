@@ -20,7 +20,7 @@ class SurveyForm extends Component {
             <div>
                 <section className="container">
                     <div className="formcase card">
-                        <h2 className="text-center">Request a Demo</h2>
+                        <h2 className="text-center">Enter the details as below</h2>
                         <div className="contact">
                             <form onSubmit={this.props.handleSubmit(this.props.onSurveySubmit)}>
                                 {this.renderFields()}
