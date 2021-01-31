@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import {connect} from 'react-redux'
 
 export default function showcase() {
     return (
@@ -7,7 +9,7 @@ export default function showcase() {
             <div className="showcase-text">
                 <h1>Voting platform</h1>
                 <p>FeedbackFirst is a platform to create and e-mail voting surveys and solicit feedback</p>
-                <a href="features.html" className="btn btn-outline">Read More</a>
+                <a href='/auth/google'className="btn btn-outline">Create Voting Survey</a>
             </div>
             <div className="showcase-form card">
                 <h2>Request a Demo</h2>

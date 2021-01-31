@@ -3,10 +3,9 @@ import React from 'react'
 export default function footer() {
     return (
         <footer className="footer bg-dark py-5">
-        <div className="container grid grid-3">
+        <div className="container grid">
             <div>
-                <h1>FeedbackFirst
-                </h1>
+                <p>FeedbackFirst </p>
                 <p>Copyright &copy; 2021</p>
             </div>
             <div className="social">

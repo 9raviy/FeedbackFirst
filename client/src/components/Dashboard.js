@@ -12,7 +12,7 @@ function Dashboard() {
                     <div>
                         <h1 className="xl">Dashboard</h1>
                         <p className="lead">
-                            List of all surveys created and sent by you are shown below
+                            
                         </p>
                     </div>
                     <img src={serverImage} alt=""/>
@@ -22,7 +22,7 @@ function Dashboard() {
             <section class="features-sub-head bg-light py-3">
                 <div class="container grid">
                     <div>
-                    <p className="lead">
+                    <p className="lead alert">
                             List of all surveys created and sent by you are shown below
                         </p>
                     </div>
