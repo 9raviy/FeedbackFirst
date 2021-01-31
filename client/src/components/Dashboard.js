@@ -23,7 +23,7 @@ function Dashboard() {
                 <div class="container grid">
                     <div>
                     <p className="lead alert">
-                            List of all surveys created and sent by you are shown below
+                            Dashboard lists all the surveys created by you
                         </p>
                     </div>
                     <div>                    

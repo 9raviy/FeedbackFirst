@@ -419,7 +419,9 @@ pre {
   .cloud .grid,
   .features-main .grid,
   .docs-main .grid,
-  .survey {
+  .survey,
+  .features-head .grid,
+  .features-sub-head .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }

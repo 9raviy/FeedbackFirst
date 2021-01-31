@@ -7,16 +7,16 @@ export default function features() {
     return (
         <div>
             <section className="features-head bg-primary py-3">
-            <div className="container grid">
-                <div>
-                    <h1 className="xl">Features</h1>
-                    <p className="lead">
-                        Check out the features of FeedbackFirst that separate us from the
-                            competition
-                    </p>
-                </div>
+                <div className="container grid">
+                    <div>
+                        <h1 className="xl">Features</h1>
+                        <p className="lead">
+                            Check out the features of FeedbackFirst that separate us from the
+                                competition
+                        </p>
+                    </div>
                     <img src={serverImage} alt=""/>
-            </div>
+                </div>
             </section>
 
             <section class="features-sub-head bg-light py-3">
