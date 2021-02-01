@@ -1,0 +1,2 @@
+# FeedbackFirst
+Feedback first is a voting survey application built using the MERN Stack. The front end uses React with Redux for state management. The backend is built using Node.js with Express as server. Authentication is handled by Passport.js using Google authentication strategy. MongoDB Atlas is the database coupled with Mongoose. SendGrid is used as the emailing service. Payment service is handled using Stripe API.
