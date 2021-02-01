@@ -19,10 +19,10 @@ export default function features() {
                 </div>
             </section>
 
-            <section class="features-sub-head bg-light py-3">
-                <div class="container grid">
+            <section className="features-sub-head bg-light py-3">
+                <div className="container grid">
                     <div>
-                        <h1 class="md">The Easiest Voting Platform</h1>
+                        <h1 className="md">The Easiest Voting Platform</h1>
                         <p>
                             As easy as creating a Login Account, then creating a Survey and Send it!! Once your audience starts responding, you will see the results on your Dashboard. Look at the detailed features below.
                         </p>
@@ -31,37 +31,37 @@ export default function features() {
                 </div>
             </section>
 
-            <section class="features-main my-2">
-                <div class="container grid grid-3">
-                    <div class="card flex">
-                        <i class="fas fa-server fa-3x"></i>
+            <section className="features-main my-2">
+                <div className="container grid grid-3">
+                    <div className="card flex">
+                        <i className="fas fa-server fa-3x"></i>
                         <p>Create your survey by simply entering your Title, Subject, Body. Enter all the emails of the intended recipients by entering the e-mail id's separated by a comma (,). Review and hit Send. And you are done.</p>
                     </div>
-                    <div class="card flex">
-                        <i class="fas fa-network-wired fa-3x"></i>
+                    <div className="card flex">
+                        <i className="fas fa-network-wired fa-3x"></i>
                         <p>
                             All intended respondents with valid e-mail id's would receive an email which they can view and respond on their computer.
                         </p>
                     </div>
-                    <div class="card flex">
-                        <i class="fas fa-laptop-code fa-3x"></i>
+                    <div className="card flex">
+                        <i className="fas fa-laptop-code fa-3x"></i>
                         <p>
                             Respondents don't need to install anything but can simple click 'Yes' or 'No' in the email to vote.                         </p>
                     </div>
-                    <div class="card flex">
-                        <i class="fas fa-database fa-3x"></i>
+                    <div className="card flex">
+                        <i className="fas fa-database fa-3x"></i>
                         <p>
                             All surveys and respondents voting data is stored on the Cloud.
                         </p>
                     </div>
-                    <div class="card flex">
-                        <i class="fas fa-power-off fa-3x"></i>
+                    <div className="card flex">
+                        <i className="fas fa-power-off fa-3x"></i>
                         <p>
                             We presently scalability to you at the click of a button.
                         </p>
                     </div>
-                    <div class="card flex">
-                        <i class="fas fa-upload fa-3x"></i>
+                    <div className="card flex">
+                        <i className="fas fa-upload fa-3x"></i>
                         <p>
                             Secure, fast and scalable solution for your voting survey needs.
                         </p>

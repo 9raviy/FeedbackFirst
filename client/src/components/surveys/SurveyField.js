@@ -5,9 +5,9 @@ export default ({input, label,meta:{error,touched}})=> {
         <p>
             <label>{label}</label>
             <input {...input} style={{marginBottom:'5px'}} />
-            <div className="message" style={{color:"red",marginBottom:'20px'}}>
+            <p className="message" style={{color:"red",marginBottom:'20px'}}>
                 {touched && error}  
-            </div>
+            </p>
         </p>
     )
 }

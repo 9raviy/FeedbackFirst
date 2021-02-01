@@ -17,8 +17,8 @@ function Dashboard() {
                 </div>
             </section>
 
-            <section class="features-sub-head bg-light py-3">
-                <div class="container grid">
+            <section className="features-sub-head bg-light py-3">
+                <div className="container grid">
                     <div>
                     <p className="lead alert">
                             Dashboard lists all the surveys created by you

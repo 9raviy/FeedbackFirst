@@ -1,12 +1,13 @@
 const _ = require('lodash')
 const {Path} = require('path-parser')
 const {URL} = require('url')
+const mongoose=require('mongoose')
+const Survey=mongoose.model('surveys')
 const requireLogin=require('../middlewares/requireLogin')
 const requireCredits=require('../middlewares/requireCredits')
 const Mailer=require('../services/Mailer')
 const surveyTemplate=require('../services/emailTemplates/surveyTemplate')
-const mongoose=require('mongoose')
-const Survey=mongoose.model('surveys')
+
 
 module.exports=app=>{
 
@@ -19,6 +20,7 @@ module.exports=app=>{
     })
 
     app.post('/api/surveys/webhooks',(req,res)=>{
+
         const p = new Path('/api/surveys/:surveyId/:choice')
 
         _.chain(req.body)
@@ -43,8 +45,7 @@ module.exports=app=>{
             lastResponded: new Date()
         }
         ).exec()
-    })
-        .value()
+    }).value()
 
         res.send({})
     })
@@ -73,7 +74,6 @@ module.exports=app=>{
             res.status(422).send(err)
         }
             
-
     })
 
 }

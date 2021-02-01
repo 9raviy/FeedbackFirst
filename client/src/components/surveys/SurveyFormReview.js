@@ -13,9 +13,9 @@ const SurveyFormReview=({onCancel, formValues, submitSurvey, history})=> {
                 <label>
                     {label}
                 </label>
-                <div>
+                <p>
                     {formValues[name]}
-                </div>
+                </p>
             </p>
         )
     })
@@ -38,14 +38,12 @@ const SurveyFormReview=({onCancel, formValues, submitSurvey, history})=> {
                         </button>
                     </p>
                 </div>
-
             </div>
         </div>
     )
 }
 
 function mapStateToProps(state){
-    console.log("mapstatetoprops",state.form.surveyForm.values)
     return {formValues:state.form.surveyForm.values}
 }
 
